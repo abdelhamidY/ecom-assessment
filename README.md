@@ -1,6 +1,14 @@
 ## Project Setup
 
-1. Clone the repository:
+1. **Clone the repository**:
+
+   Clone the project from the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+
+   ```
 
 2. Install dependencies:
 
@@ -28,3 +36,12 @@ Using React Profiler, we measured the performance before and after applying opti
 
 - **Before**: All list items re-rendered on each change, and the expensive calculation ran multiple times.
 - **After**: Only the necessary list items re-render, and the expensive calculation runs only when required, leading to a significant reduction in rendering time.
+
+### Key Changes:
+
+- **Components Overview Section**: Added a section explaining the `ListBeforeOptimization` and `ListAfterOptimization` components and how they demonstrate the performance difference.
+- **Performance Optimizations Section**: Remains the same, explaining the optimizations applied.
+
+This README now clearly indicates the comparison between the two components (`ListBeforeOptimization` and `ListAfterOptimization`) and explains their purpose in showcasing the performance differences.
+
+Let me know if you need any further modifications!
