@@ -4,7 +4,7 @@ import { FetchUserListContainer } from "./style";
 
 const FetchUserList = () => {
   const { data, loading, error } = useFetch(
-    "https://jsonplaceholder.typicode.com/users"
+    `${import.meta.env.VITE_REACT_API_URL}/users`
   );
 
   if (loading) return <p>Loading...</p>;
